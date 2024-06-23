@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+    integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="d-flex justify-content-around align-items-center px-3 py-2">
+    <div class="img-container">
+      <img src="logo-S2lIhR8K.svg" alt="" class="img-fluid">
+    </div>
+    <div>
+      <input type="text" class="form-control search-input" placeholder="Search for your favorite ATG">
+    </div>
+    <div>
+      <button class="new-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        create Account.
+        <span class="blue-text">
+          It's Free!
+        </span>
+      </button>
+    </div>
+  </div>
+  <div class="lady-bg">
+    <!-- <img src="lady.jpg" alt=""> -->
+    <div class="text-white">
+      <h3 style="font-size: 50px;">
+        Computer Engineering
+      </h3>
+      <small style="font-size: 20px;">142,765 Computer Engineers follow this</small>
+    </div>
+  </div>
+  <div>
+    <div class="container-fluid w-60 pt-3 pb-2 ">
+      <div class="d-flex align-items-center pb-2 mb-3 justify-content-between border-bottom">
+        <div>
+          <span class="px-2 pb-2 custom-nav-item active">
+            All Posts (10)
+          </span>
+          <span class="custom-nav-item px-3 pb-2">Article</span>
+          <span class="custom-nav-item px-3 pb-2">Event</span>
+          <span class="custom-nav-item px-3 pb-2">Education</span>
+          <span class="custom-nav-item px-3 pb-2">Job</span>
+        </div>
+        <div>
+          <button class="btn btn-light me-3">Write Post</button>
+          <button class="btn btn-primary"><i class="fa-solid fa-user-group"></i> Join Group</button>
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-lg-8 col-md-8">
+            <!-- card 1 -->
+            <div class="card w-100 mb-5">
+              <img src="card-1.jpg" class="card-img-top h-300" alt="Card 1">
+              <div class="card-body">
+                <p class="card-text">
+                <h2>✍️ Article</h2>
+                <div class="d-flex justify-content-between">
+                  <h4>What if famous brands had regular fonts? Meet RegulaBrands!</h4>
+                  <button class="btn btn-outline-light" style="color: black;">
+                    <h4>...</h4>
+                  </button>
+                </div>
+                </p>
+                <p class="text-muted">
+                  I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
+                </p>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <div class="user-img-container me-3">
+                      <img src="user1.jpg" class="user-img" alt="">
+                    </div>
+                    Siddharth Goyal
+                  </div>
+                  <div>
+                    <i class="fa-regular fa-eye"></i> 1.4k views
+
+                    <button class="btn btn-light">
+                      <i class="fa-solid fa-share-nodes"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card w-100 mb-5">
+              <img src="card-2.jpg" class="card-img-top h-300" alt="Card 1">
+              <div class="card-body">
+                <p class="card-text">
+                <h2>🔬️ Education</h2>
+                <div class="d-flex justify-content-between">
+                  <h4>Tax Benefits for Investment under National Pension Scheme launched by Government</h4>
+                  <button class="btn btn-outline-light" style="color: black;">
+                    <h4>...</h4>
+                  </button>
+                </div>
+                </p>
+                <p class="text-muted">
+                  I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
+                </p>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <div class="user-img-container me-3">
+                      <img src="user2.jpg" class="user-img" alt="">
+                    </div>
+                    Siddharth Goyal
+                  </div>
+                  <div>
+                    <i class="fa-regular fa-eye"></i> 1.4k views
+
+                    <button class="btn btn-light">
+                      <i class="fa-solid fa-share-nodes"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="card w-100 mb-5">
+              <img src="card-3.jpg" class="card-img-top h-300" alt="Card 1">
+              <div class="card-body">
+                <p class="card-text">
+                <h2>🗓️ Meetup</h2>
+                <div class="d-flex justify-content-between">
+                  <h4>Finance & Investment Elite Social Mixer @Lujiazui</h4>
+                  <button class="btn btn-outline-light" style="color: black;">
+                    <h4>...</h4>
+                  </button>
+                </div>
+                </p>
+                <div class="d-flex justify-content-start align-items-center">
+                  <div class="me-5 ">
+                    <i class="fa-regular fa-calendar"></i>&nbsp;&nbsp;Fri, 12 Oct, 2018
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-location-dot"></i></i>&nbsp;&nbsp;Noida, India
+                  </div>
+                </div>
+                <div>
+                  <button class="btn btn-outline-danger w-100 my-3">Visit Website</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <div class="user-img-container me-3">
+                      <img src="user1.jpg" class="user-img" alt="">
+                    </div>
+                    Siddharth Goyal
+                  </div>
+                  <div>
+                    <i class="fa-regular fa-eye"></i> 1.4k views
+
+                    <button class="btn btn-light">
+                      <i class="fa-solid fa-share-nodes"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 4 -->
+            <div class="card w-100 mb-5">
+              <!-- <img src="card-3.jpg" class="card-img-top h-300" alt="Card 1"> -->
+              <div class="card-body">
+                <p class="card-text">
+                <h2>💼️ Job</h2>
+                <div class="d-flex justify-content-between">
+                  <h4>Software Developer</h4>
+                  <button class="btn btn-outline-light" style="color: black;">
+                    <h4>...</h4>
+                  </button>
+                </div>
+                </p>
+                <div class="d-flex justify-content-start align-items-center">
+                  <div class="me-5 ">
+                    <i class="fa-solid fa-briefcase"></i>&nbsp;&nbsp;Innovaccer Analytics Private Ltd
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-location-dot"></i></i>&nbsp;&nbsp;Noida, India
+                  </div>
+                </div>
+                <div>
+                  <button class="btn btn-outline-success w-100 my-3">Apply on Timejobs</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <div class="user-img-container me-3">
+                      <img src="user1.jpg" class="user-img" alt="">
+                    </div>
+                    Siddharth Goyal
+                  </div>
+                  <div>
+                    <i class="fa-regular fa-eye"></i> 1.4k views
+
+                    <button class="btn btn-light">
+                      <i class="fa-solid fa-share-nodes"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="p-3">
+              <div class="d-flex flex-column">
+                <div class="border-bottom pb-2">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <input type="text" class="no-border" placeholder="Enter your location">
+                  <i class="fa-solid fa-pencil"></i>
+                </div>
+                <small class="text-muted mt-2" style="font-size: 12px;">
+                  <i class="fa-solid fa-circle-info"></i>
+                  Your location will help us serve better and extend a personalised experience.
+                </small>
+              </div>
+              <div class="d-flex flex-column ">
+                <div class="my-3">
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  RECOMMENDED GROUPS
+                </div>
+                <div class="row align-items-center mb-3">
+                  <div class="col-lg-8 d-flex align-items-center">
+                    <div class="user-img-container me-3">
+                      <img src="group1.jpg" class="user-img" alt="">
+                    </div>
+                    Leisure
+                  </div>
+                  <div class="col-lg-4">
+                    <button class="btn btn-light">Follow</button>
+                  </div>
+                </div>
+                <div class="row align-items-center mb-3">
+                  <div class="col-lg-8 d-flex align-items-center">
+                    <div class="user-img-container me-3">
+                      <img src="group2.jpg" class="user-img" alt="">
+                    </div>
+                    Activism
+                  </div>
+                  <div class="col-lg-4">
+                    <button class="btn btn-light">Follow</button>
+                  </div>
+                </div>
+                <div class="row align-items-center mb-3">
+                  <div class="col-lg-8 d-flex align-items-center">
+                    <div class="user-img-container me-3">
+                      <img src="group3.jpg" class="user-img" alt="">
+                    </div>
+                    MBA
+                  </div>
+                  <div class="col-lg-4">
+                    <button class="btn btn-light">Follow</button>
+                  </div>
+                </div>
+                <div class="row align-items-center mb-3">
+                  <div class="col-lg-8 d-flex align-items-center">
+                    <div class="user-img-container me-3">
+                      <img src="group4.jpg" class="user-img" alt="">
+                    </div>
+                    Philosophy
+                  </div>
+                  <div class="col-lg-4">
+                    <button class="btn btn-light">Follow</button>
+                  </div>
+                </div>
+                <button class="btn btn-outline-primary mt-5">See more...</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title fs-5" id="exampleModalLabel">
+            Let's learn, share & inspire each other with our passion
+            for computer engineering. Sign up now 🤘🏼
+          </h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="d-flex flex-column">
+                <h5>Create Account</h5>
+                <div class="row mb-2">
+                  <div class="col-6">
+                    <input type="text" placeholder="First Name" class="form-control">
+                  </div>
+                  <div class="col-6">
+                    <input type="text" placeholder="Last Name" class="form-control">
+                  </div>
+                </div>
+                <div class="mb-2">
+                  <input type="email" class="form-control" placeholder="Email" name="" id="">
+                </div>
+                <div class="mb-2">
+                  <input type="password" class="form-control" placeholder="Password" name="" id="">
+                </div>
+                <div class="mb-2">
+                  <input type="password" class="form-control" placeholder="Confirm Password" name="" id="">
+                </div>
+              </div>
+              <div class="my-3">
+                <button class="btn btn-primary w-100">Create Account</button>
+              </div>
+              <div class="my-3">
+                <button class="btn btn-outline-info mt-2 w-100">Sign up with Facebook</button>
+              </div>
+              <div class="my-3">
+                <button class="btn btn-outline-info w-100">Sign up with Google</button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <img src="modal-img.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
